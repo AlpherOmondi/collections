@@ -28,6 +28,9 @@ fun main() {
     println("The sorted list is :${identificationNums.sorted()}")
     //checking if an items exists using contains()
     println("contains 1:${age.contains(1)}")
-
+//  printing the records
+    records.forEach{
+        println("${it.key} is number:${it.value}")
+    }
 
 }
