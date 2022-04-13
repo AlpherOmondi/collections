@@ -32,5 +32,8 @@ fun main() {
     records.forEach{
         println("${it.key} is number:${it.value}")
     }
+    // filtering names with length less than 4
+    val filteredNames=records.filter { it.value <5}
+    println(filteredNames)
 
 }
