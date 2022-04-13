@@ -24,5 +24,7 @@ fun main() {
     println("The group members are : ${records}")
     //Sorting the list
     println("The sorted list is :${identificationNums.sorted()}")
+    //checking if an items exists using contains()
+    println("contains 1:${age.contains(1)}")
 
 }
