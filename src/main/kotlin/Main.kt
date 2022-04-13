@@ -14,17 +14,20 @@ fun main() {
     val age = setOf(1,3)
     //Prints set of ages
     println("The set of ages are:${age}")
-    val records = mapOf<String,Int>(
+    val records = mutableMapOf<String,Int>(
         "Alpha" to 1,
         "Felix" to 2,
         "Purity" to 3,
         "Amos" to 4
     )
+    //Add a record to the map
+    records["Brian"] = 9
     //print the map
     println("The group members are : ${records}")
     //Sorting the list
     println("The sorted list is :${identificationNums.sorted()}")
     //checking if an items exists using contains()
     println("contains 1:${age.contains(1)}")
+
 
 }
